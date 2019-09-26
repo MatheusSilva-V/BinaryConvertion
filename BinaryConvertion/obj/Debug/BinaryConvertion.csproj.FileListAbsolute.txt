@@ -1,0 +1,6 @@
+E:\C# Projects\BinaryConvertion\BinaryConvertion\bin\Debug\BinaryConvertion.exe.config
+E:\C# Projects\BinaryConvertion\BinaryConvertion\bin\Debug\BinaryConvertion.exe
+E:\C# Projects\BinaryConvertion\BinaryConvertion\bin\Debug\BinaryConvertion.pdb
+E:\C# Projects\BinaryConvertion\BinaryConvertion\obj\Debug\BinaryConvertion.csprojResolveAssemblyReference.cache
+E:\C# Projects\BinaryConvertion\BinaryConvertion\obj\Debug\BinaryConvertion.exe
+E:\C# Projects\BinaryConvertion\BinaryConvertion\obj\Debug\BinaryConvertion.pdb
