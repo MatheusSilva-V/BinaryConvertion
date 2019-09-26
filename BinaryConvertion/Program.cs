@@ -17,10 +17,24 @@ namespace BinaryConvertion
 			Console.WriteLine("Digite o número em binário: ");
 			
 			string bin = Console.ReadLine();
+								
 			char[] arr = bin.ToCharArray();
 			double decimalNumber = 0;
 			
-			Array.Reverse(arr, 0, arr.Length);
+		Verificacao:
+		for (int p = 0; p < arr.Length; p++)
+			{
+				while (arr[p] != '1' && arr[p] != '0')
+				{
+					Console.WriteLine("Número digitado não é binário!");
+					Console.WriteLine("Digite novamente o número em binário: ");
+					bin = Console.ReadLine();
+					arr = bin.ToCharArray();
+					goto Verificacao;
+				}
+			}
+		
+		Array.Reverse(arr, 0, arr.Length);
 		
 			for (int i = 0; i < arr.Length; i++)
 			{
@@ -31,12 +45,7 @@ namespace BinaryConvertion
 			}
 			
 			Console.WriteLine("O número em decimal é: " + decimalNumber);
-			
-			//for (int i = bin.Length; i == 0; i--)
-			//{
-			
-			//}
-			
+							
 				
 			Console.ReadLine();
 		}
